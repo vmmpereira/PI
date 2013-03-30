@@ -1,0 +1,44 @@
+#background_pattern{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/bg_results.jpg);
+	opacity: 0.5;
+	background-size: cover;
+}
+
+#profileEdit h1{
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+}
+
+#profileEdit label{
+	float: left;
+	width: 120px;
+}
+
+#profileEdit input[type=submit]{
+	margin-left: 125px;
+}
+
+#profileEdit input,select{
+	width: 160px;
+	margin: 5px;
+}
+
+/* sem mais alterações apenas o firefox apresenta o simbolo valid, os outros browsers têm modelos próprios para formatar os campos válidos/inválidos  
+#profileEdit input:required:invalid, input:focus:invalid {
+  background-image: url(../img/invalid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+#profileEdit input:required:valid {
+  background-image: url(../img/valid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+} 
+*/
